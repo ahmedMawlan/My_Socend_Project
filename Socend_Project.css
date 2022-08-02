@@ -1,0 +1,110 @@
+body{
+    padding: 2px;
+    margin: 0;
+    background: #edfffe
+}
+
+.layout{
+    max-height:100%;
+    max-width: 100%;
+
+    padding:.5% 5% 5% 5%;
+    display: block;
+    justify-content: center;
+}
+
+header{
+    
+    font: bold 32px Tahoma;
+    margin: 2.3% auto;
+    color:#303081;
+    text-align: center;
+    
+    
+
+}
+
+span{
+    
+    border-bottom: solid aqua;
+    
+}
+
+.block_backgrounds{
+    min-height: 800px;
+    max-width: 1350px; 
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.background1{
+    max-height: 550px;
+    max-width: 31%;
+    margin: auto;
+    padding:3px;
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 10px ;
+    
+}
+img{
+    max-width:100%;
+    border-radius: 10px;
+}
+
+img:hover{
+    filter:grayscale(100%)
+}
+
+p{
+    font: bold 16px Tahoma;
+    margin: 10px
+}
+
+nav{
+    font: Tahoma;
+    margin: 10px;
+    line-height: 20px;
+}
+
+.child{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+history{
+    color: rgb(1, 158, 158);
+    font-family: Tahoma;
+    margin: 10px;
+    justify-content: flex-start;
+    
+    
+}
+ a{
+    
+    font-family: Tahoma;
+    margin: 10px; 
+ }
+
+ a:hover{
+    color: orange;
+ }
+
+ @media (max-width: 767px){
+    .background1{
+       max-width:100%
+    }
+}
+
+@media (max-width: 900px) and (min-width: 768px){
+    .background1{ 
+       max-width:43%;
+       margin: 20px 
+    }
+}
+
